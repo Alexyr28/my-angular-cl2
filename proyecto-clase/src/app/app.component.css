@@ -1,0 +1,23 @@
+.mitext{
+    font-size: 2rem;
+    color: crimson;
+    font-family: Nerko One;
+}
+
+.titulo{
+    size: 2rem;
+    color: black;
+    font-size: 2rem;
+    background-color: red;
+}
+
+.titulo2{
+    size: 2rem;
+    color: white;
+    font-size: 1rem;
+    background-color: black;
+}
+
+td{
+    background-color: chartreuse;
+}
