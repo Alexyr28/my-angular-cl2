@@ -1,5 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
-    --variableParrafo: 2rem;
-    --color: 
+    --variableParrafo: 1.2rem;
+    --color: #b6361a;
+    --coloresfilas: #b66f1a;
+    --fuente: Nerko One;
+    --coloresdiv: #9fb61a;
+    --anchodiv: 3000px;
+    --anchodiv2: 1000px;
+    --margendiv: auto;
+    --colordiv2: #1ab649;
+}
+
+html, body{
+    color: var(--color);
+    font-size: var(--variableParrafo);
+}
+
+td{
+    color: var(--color);
+    font-size: var(--variableParrafo);
+    font-size: var(--fuente);
+    background-color: var(--coloresfilas);
+    font: var(--fuente)
+}
+
+div{
+    background-color: var(--colordiv);
+    width: var(--anchodiv);
+    margin: var(--anchodiv2);
+}
+
+.general{
+    background-color: var(--coloresdiv);
+    width: var(--anchodiv);
+    margin: var(--margendiv);
+}
+
+.subitem{
+    background-color: var(--colordiv2);
+    width: var(--anchodiv2);
+    margin: var(--margendiv);
 }
